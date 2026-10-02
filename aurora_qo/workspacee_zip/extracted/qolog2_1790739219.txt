@@ -1,0 +1,5 @@
+http hookeadas: 3
+namecall hookeado
+loadstring hookeado
+writefile hookeado
+script_key instalado

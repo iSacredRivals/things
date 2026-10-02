@@ -1,0 +1,21 @@
+==P2D==
+GetLength	n:216.012345678901
+GetPositionOnCurve|0.4285714328289032	v:12.5,34.75
+GetPositionOnCurve|0.20000000298023224	v:11.25,29.8
+GetPositionOnCurve|0.25	v:13.0,31.2
+GetPositionOnCurve|0.38461539149284363	v:12.9,33.1
+GetTangentOnCurve|0.20000000298023224	v:0.5,0.866
+GetTangentOnCurve|0.20000000298023224	v:0.5,0.866
+GetTangentOnCurve|0.2142857164144516	v:0.51,0.861
+GetPositionOnCurveArcLength|0.1666666716337204	v:2.1,3.3
+GetPositionOnCurveArcLength|0.80000001192092896	v:10.7,20.9
+GetTangentOnCurveArcLength|0.3333333432674408	v:0.7,0.714
+GetTangentOnCurveArcLength|0.53846156597137451	v:0.62,0.78
+==END==
+==P2DGUI==
+GetLength	n:216.012345678901
+==ENDGUI==
+==ENV==
+executor	Wave
+g	game	userdata	Instance	mt:nil
+==ENDENV==

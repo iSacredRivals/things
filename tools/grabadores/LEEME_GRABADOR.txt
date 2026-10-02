@@ -1,0 +1,44 @@
+GRABADOR LURAPH · TODO-EN-UNO · AUTOGUARDADO
+============================================
+
+QUÉ ES
+-------
+Script para tu executor de Roblox (Wave / Synapse / Delta / Fluxus / etc.)
+que graba en 1 segundo:
+
+  1) ==P2D== → la "stage key" de Cokeboys V1.8 (Luraph v14.8):
+     réplica EXACTA de su sonda (Frame 216x178 + Path2D con 3 control
+     points) y las 12 respuestas reales del motor. Sin estas respuestas
+     el decoder del VM entra en bucle infinito.
+
+  2) ==ENV== → los valores vivos del entorno que valida la VM de
+     Hermenos Hub (Luraph v14.5.2): typeof/type/metatables/frozen de
+     los globals, enumeración de getfenv() y locale.
+
+  3) AUTOGUARDADO → escribe "grabador_luraph.txt" en la CARPETA DE
+     ARCHIVOS de tu executor (writefile + verificación readfile) y
+     copia todo al portapapeles (setclipboard). Si no hay writefile
+     (ej. Roblox Studio), copia el bloque impreso en la consola.
+
+CÓMO USARLO
+-----------
+  1) Copia "grabador_luraph.luau" a la carpeta de tu executor
+     (o pega su contenido entero en el editor del executor).
+  2) Ábrelo y ejecútalo EN EL JUEGO donde usas el script
+     (mismo executor donde se queda colgado — las respuestas salen
+     del motor de ESE executor).
+  3) Al terminar busca "grabador_luraph.txt" en la pestaña de
+     archivos (Files) del executor.
+
+QUÉ DEVOLVER
+------------
+Manda el archivo "grabador_luraph.txt" COMPLETO (contiene los bloques
+==P2D== y ==ENV==). Con eso se completa el decode del Cokeboys v14.8
+y se desbloquea la VM v14.5.2 de Hermenos.
+
+Notas
+-----
+- El script tarda menos de 1 segundo y se limpia solo (Destroy).
+- Todo va protegido con pcall: no crashea aunque falte alguna función.
+- Si tu executor no muestra la pestaña de archivos, el contenido
+  también queda en el PORTAPAPELES al terminar.

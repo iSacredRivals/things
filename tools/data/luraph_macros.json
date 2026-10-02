@@ -1,0 +1,51 @@
+{
+  "code": 200,
+  "data": {
+    "description": "Secure and protect your Lua scripts with Luraph - the most trusted Lua obfuscator on the market since 2017. Count on our proven track record and innovative security features to keep your code safe.",
+    "external": {
+      "icon": {
+        "https://lura.ph/favicon.ico": {}
+      },
+      "modulepreload": {
+        "https://lura.ph/assets/lph.BZikfB7h.js": {
+          "crossorigin": ""
+        },
+        "https://lura.ph/assets/lph.DiYpo1pc.js": {
+          "crossorigin": ""
+        }
+      },
+      "preconnect": {
+        "https://fonts.googleapis.com/": {},
+        "https://fonts.gstatic.com/": {
+          "crossorigin": ""
+        }
+      }
+    },
+    "html": "<html lang=\"en\"><head>\n    <title>Luraph | #1 Lua Obfuscator</title>\n\n    <meta name=\"description\" content=\"Secure and protect your Lua scripts with Luraph - the most trusted Lua obfuscator on the market since 2017. Count on our proven track record and innovative security features to keep your code safe.\">\n    <meta name=\"keywords\" content=\"lua obfuscator, lua obfuscation, lua, obfuscator, obfuscation, luau, luajit, roblox, synapse, scriptware, fivem, gta\">\n\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n\n    <link rel=\"icon\" href=\"/favicon.ico\">\n\n    <!-- Google Fonts -->\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">\n    <link rel=\"stylesheet\" media=\"print\" onload=\"this.media='all'; this.onload = null;\" href=\"https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap\">\n\n    <!-- Global site tag (gtag.js) - Google Analytics -->\n    <script src=\"https://www.googletagmanager.com/gtag/js?id=G-BRD9GM9W16\" async=\"\"></script>\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag() {\n        dataLayer.push(arguments);\n      }\n      gtag(\"js\", new Date());\n      gtag(\"config\", \"G-BRD9GM9W16\");\n      gtag(\"config\", \"AW-332779269\");\n    </script>\n\n    <!-- Structured data (for SEO) -- *This is modified in JavaScript* -->\n    <script id=\"structuredData\" type=\"application/ld+json\">\n      {\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"OnlineBusiness\",\n\n        \"name\": \"Luraph\",\n        \"legalName\": \"Infinimoon LLC\",\n        \"brand\": \"Luraph\",\n        \"founder\": \"memcorrupt\",\n\n        \"email\": \"mem@mem.rip\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"streetAddress\": \"18459 Pines Blvd #491\",\n          \"addressLocality\": \"Pembroke Pines\",\n          \"addressRegion\": \"Florida\",\n          \"addressCountry\": \"US\",\n          \"postalCode\": \"33029\"\n        }\n      }\n    </script>\n    <script type=\"module\" crossorigin=\"\" src=\"/assets/lph.Bfjwtz2L.js\"></script>\n    <link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/lph.DiYpo1pc.js\">\n    <link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/lph.BZikfB7h.js\">\n    <link rel=\"stylesheet\" crossorigin=\"\" href=\"/assets/lph.BBMNEQK-.css\">\n    <link rel=\"stylesheet\" crossorigin=\"\" href=\"/assets/lph.C3Qdn4qi.css\">\n  </head>\n  <body>\n    <noscript>\n      <strong\n        >Please enable JavaScript in order to access the Luraph website.</strong\n      >\n    </noscript>\n    <div id=\"app\"></div>\n  \n\n</body></html>",
+    "httpStatus": 200,
+    "httpStatusText": "OK",
+    "metadata": {
+      "description": "Secure and protect your Lua scripts with Luraph - the most trusted Lua obfuscator on the market since 2017. Count on our proven track record and innovative security features to keep your code safe.",
+      "keywords": "lua obfuscator, lua obfuscation, lua, obfuscator, obfuscation, luau, luajit, roblox, synapse, scriptware, fivem, gta",
+      "lang": "en",
+      "viewport": "width=device-width,initial-scale=1.0"
+    },
+    "title": "Luraph | #1 Lua Obfuscator",
+    "url": "https://lura.ph/dashboard/documents/macros",
+    "usage": {
+      "measuredTokens": 42,
+      "outputTokens": 42,
+      "scaledTokens": 864,
+      "tokens": 864
+    }
+  },
+  "meta": {
+    "usage": {
+      "measuredTokens": 42,
+      "outputTokens": 42,
+      "scaledTokens": 864,
+      "tokens": 864
+    }
+  },
+  "status": 20000
+}

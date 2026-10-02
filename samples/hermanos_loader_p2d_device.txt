@@ -1,0 +1,30 @@
+# GRABADOR Path2D — hermanos loader (obf_3) — REAL DEVICE VALUES (Delta)
+# Returned by user 2026-10-01 (Task 68). Probe: Frame 222x119, 3 CPs, 8 queries + GetLength.
+# Environments: ==P2D== ScreenGui UNPARENTED (nil)  ==P2DGUI== ScreenGui parented to CoreGui
+# Loader never parents its probe ScreenGui (confirmed herm_guarded_trace.luau) => ==P2D== is the
+# authoritative set; offline model == ==P2D== bit-exact (9/9). Only GetPositionOnCurve|0.6 differs
+# between environments (~2 ULP, CoreGui-parented variant).
+
+==P2D==
+GetLength	n:95.9117431640625
+GetPositionOnCurve|0.75	u:-0.025337837636470795,0,-0.042016807943582535,0
+GetPositionOnCurve|0.60000002384185791	u:-0.044756755232810974,0,-0.02174789272248745,0
+GetTangentOnCurve|0.1428571492433548	v:-98.714279174804688,-3.7142856121063232
+GetTangentOnCurve|0.875	v:24.9375,6.046875
+GetPositionOnCurveArcLength|0.63636362552642822	u:-0.0067262048833072186,0,-0.06905057281255722,0
+GetPositionOnCurveArcLength|0.60000002384185791	u:0.0089811207726597786,0,-0.068474389612674713,0
+GetTangentOnCurveArcLength|0.5	v:-76.209503173828125,-2.4374184608459473
+GetTangentOnCurveArcLength|0.80000001192092896	v:17.246456146240234,-12.780670166015625
+==END==
+
+==P2DGUI==  (CoreGui-parented; differs from P2D only at GetPositionOnCurve|0.6)
+GetLength	n:95.9117431640625
+GetPositionOnCurve|0.75	u:-0.025337837636470795,0,-0.042016807943582535,0
+GetPositionOnCurve|0.60000002384185791	u:-0.044756751507520676,0,-0.021747877821326256,0
+GetTangentOnCurve|0.1428571492433548	v:-98.714279174804688,-3.7142856121063232
+GetTangentOnCurve|0.875	v:24.9375,6.046875
+GetPositionOnCurveArcLength|0.63636362552642822	u:-0.0067262048833072186,0,-0.06905057281255722,0
+GetPositionOnCurveArcLength|0.60000002384185791	u:0.0089811207726597786,0,-0.068474389612674713,0
+GetTangentOnCurveArcLength|0.5	v:-76.209503173828125,-2.4374184608459473
+GetTangentOnCurveArcLength|0.80000001192092896	v:17.246456146240234,-12.780670166015625
+==ENDGUI==

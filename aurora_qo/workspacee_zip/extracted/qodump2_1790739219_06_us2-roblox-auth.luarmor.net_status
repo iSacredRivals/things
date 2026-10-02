@@ -1,0 +1,1 @@
+{"active":true,"message":"API is up and working!","versions":{"3.4":"v8"},"instances":["eu1-roblox-auth.luarmor.net","us1-roblox-auth.luarmor.net","us2-roblox-auth.luarmor.net","ca1-roblox-auth.luarmor.net","as1-roblox-auth.luarmor.net","as2-roblox-auth.luarmor.net","as3-roblox-auth.luarmor.net","au1-roblox-auth.luarmor.net","au2-roblox-auth.luarmor.net"]}
